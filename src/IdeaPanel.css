@@ -1,0 +1,12 @@
+.idea-panel{
+    color:#808080;
+    font-weight: bold;
+    margin-left: 190px;
+}
+.idea-col{
+    width: 40%;
+    height: auto;
+    float: left;
+
+    margin-left: 20px;
+}

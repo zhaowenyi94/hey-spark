@@ -1,0 +1,78 @@
+.header {
+    font-family: sans-serif;
+    background: #87B9E2;
+    color: #FFFFFF;
+    height: 60px;
+    vertical-align: middle;
+}
+
+.title {
+    padding-left: 100px;
+    font-size: 20px;
+    line-height: 60px;
+}
+
+.panel {
+    float: right;
+    padding: 0px;
+}
+
+.icon {
+    height: 28px;
+    padding: 16px;
+}
+
+.icon:hover{
+    background: #69A8DA;
+}
+
+.profile {
+    height: 30px;
+    float: right;
+    padding: 0px;
+    margin-right: 200px;
+
+}
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    font-size: 12px;
+}
+
+.dropdown-content div {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.log-in-button {
+    width : 70px;
+    height: 30px;
+    font-size: 16px;
+    background: #69A8DA;
+    border-radius: 4px;
+    border : 1px;
+    color: #FFFFFF;
+    background: #69A8DA;
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+
+
