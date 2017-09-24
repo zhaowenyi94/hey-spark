@@ -6,6 +6,7 @@ import App from './App';
 import TitleBar from './title-bar/TitleBar';
 import SignUp from './sign/SignUp';
 import SignIn from './sign/SignIn';
+import Comment from './comment/CommentPanel';
 
 import { HashRouter, Router, Route, hashHistory } from 'react-router-dom'
 
@@ -18,6 +19,7 @@ render((
                 <Route exact path="/" component={App} />
                 <Route path="/signup" component={SignUp} />
                 <Route path="/signin" component={SignIn} />
+                <Route path="/comment" component={Comment} />
             </div>
         </HashRouter>
     </div>

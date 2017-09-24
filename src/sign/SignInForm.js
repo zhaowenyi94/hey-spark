@@ -38,7 +38,7 @@ class SignInForm extends React.Component {
 
             <form onSubmit={this.onSubmit} className="form">
                 <h1 className="form-heading"> Welcome to</h1>
-                <h1 className="form-heading"> IDEA POCKET!</h1>
+                <h1 className="form-heading"> Hay Spark!</h1>
 
                 <div className = 'form-group'>
                     <label className= 'control-label'>Email</label><br/>

@@ -26,7 +26,7 @@ class IdeaItem extends Component {
         return (
             <div className="idea-item">
                 <div className="idea-item-thumbnail">
-                    {this.props.title}
+                    <a href={"#" + 'comment'}>{this.props.title}</a>
                 </div>
                 <ReadMore minHeight="52px" animation="1.2s ease">
                     {this.props.content}

@@ -42,7 +42,7 @@ class SignUpForm extends React.Component {
         return (
             <form action="http://127.0.0.1:3030/login" method="POST" onSubmit={this.onSubmit} className="form">
                 <h1 className="form-heading"> Welcome to</h1>
-                <h1 className="form-heading"> IDEA POCKET!</h1>
+                <h1 className="form-heading"> Hay Spark!</h1>
                 <div className = 'form-group'>
                     <label className= 'control-label'>Username*</label><br/>
                     <input value= {this.state.username} onChange={this.onChange}   type = 'text' name = 'username' className="form-control" required=""/>
