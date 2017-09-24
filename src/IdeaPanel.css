@@ -1,5 +1,53 @@
 .IdeaPanel{
     color:#808080;
-    height: 100px;
     font-weight: bold;
+    text-align: center;
+}
+
+.Idea-item{
+    color:black;
+    height:200px;
+}
+
+.Idea-title{
+    height: 80%;
+    font-size:48pt;
+    text-align: left;
+    margin-top: 5%;
+
+}
+
+.Idea-author{
+    color:dimgray;
+    font-weight: 400;
+    width:800px;
+    text-align:left;
+    height: 100%;
+}
+
+.Idea-author-image{
+    width:50px;
+    text-align: left;
+    height: 100%;
+
+}
+
+.Idea-time{
+    width: 100px;
+    font-weight: 400;
+    text-align:left;
+    height: 100%;
+}
+
+.Idea-like{
+    width:150px;
+    height:100%;
+    text-align: left;
+}
+
+.Idea-info{
+    height: 20%;
+    width: 100%;
+    font-size:20pt;
+    text-align:left;
 }

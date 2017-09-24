@@ -1,4 +1,6 @@
 import React, {Component} from 'react'
+import './IdeaItem.css'
+import FaThumbsUp from "react-icons/lib/fa/thumbs-up"
 
 class IdeaItem extends Component {
 
@@ -13,25 +15,21 @@ class IdeaItem extends Component {
 
     render() {
         return (
-            <div>
-                this is a new idea!
-                <div>
+            <div className="idea-item">
+                <div className="idea-item-thumbnail">
                     Title: {this.props.title}
                 </div>
-                <div>
-                    Create time: {this.props.createTime}
+                <div className="idea-item-footer">
+                    <div className="idea-item-footer">
+                        <span className="idea-item-rating-label">Likes: </span>
+                        <span className="idea-item-rating">{this.props.likes}</span>
+                        <button className="btn-instagram"><FaThumbsUp /></button>
+                        <div className="idea-item-info">
+                            <div className="idea-item-author"><b>Author:</b> <span>{this.props.author}</span></div>
+                            <div className="idea-item-date"><b>Date:</b> <span>{this.props.date}</span></div>
+                        </div>
+                    </div>
                 </div>
-                <div>
-                    Likes: {this.props.likes}
-                </div>
-                <div>
-                    Founder: {this.props.founder}
-                </div>
-                <div>
-                    Heat: {this.props.heat}
-                </div>
-
-
             </div>
         )
     }

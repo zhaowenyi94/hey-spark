@@ -7,12 +7,9 @@ class IdeaPanel extends Component {
     render() {
         return (
             <div className="IdeaPanel">
-                IdeaPanel Works!
-                <div>
-                    <IdeaItem createTime="1" title="Idea1"/>
-                    <IdeaItem createTime="2"/>
-                    <IdeaItem createTime="3"/>
-                </div>
+                    <IdeaItem author="1" title="Idea1"/>
+                    <IdeaItem author="2"/>
+                    <IdeaItem author="3"/>
             </div>
         )
     }
