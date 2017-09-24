@@ -1,0 +1,11 @@
+use Idea_Pocket
+
+db.createCollection("Idea") 
+db.createCollection("User")
+db.createCollection("Comment")      
+
+
+//drop database
+db.dropDatabase()
+//drop collection
+db.COLLECTION.drop()  

@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="bb66d475-d6d1-40f2-9025-abbf8b0fa54d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/IdeaItem.js" afterPath="$PROJECT_DIR$/src/IdeaItem.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/IdeaPanel.js" afterPath="$PROJECT_DIR$/src/IdeaPanel.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -290,7 +288,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1506191797182</updated>
-      <workItem from="1506191798703" duration="28592000" />
+      <workItem from="1506191798703" duration="28600000" />
     </task>
     <task id="LOCAL-00001" summary="Modify stream">
       <created>1506212360952</created>
@@ -306,7 +304,14 @@
       <option name="project" value="LOCAL" />
       <updated>1506235044312</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Modify item style">
+      <created>1506237355557</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1506237355557</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -315,7 +320,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28592000" />
+    <option name="totallyTimeSpent" value="28600000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="22" width="1276" height="778" extended-state="6" />

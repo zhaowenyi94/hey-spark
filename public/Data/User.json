@@ -1,0 +1,15 @@
+/*
+{"id":int
+ "nickname":string
+ "email":string
+ "password":string
+ "pro_pic":file_path
+ "tag":string
+ "profile":[{"address":string
+             "email":string
+             "tel":string
+             "link":string}]
+ "comment_table":[{}]
+ "like_table":[{}]
+ }
+*/
