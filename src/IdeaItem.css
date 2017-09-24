@@ -1,0 +1,129 @@
+
+.idea-item {
+    background-color: white;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    box-shadow:0 1px 3px rgba(0, 0, 0, .1);
+    float:top;
+}
+
+a:link {
+    text-decoration:none;
+
+}
+
+a:visited{
+    text-decoration:none;
+    color: #000000;
+}
+
+.idea-item-description {
+    margin-top: 2px;
+    font-size: 19px;
+}
+
+.idea-item-thumbnail
+{
+    color: #000000;
+    padding-left: 20px;
+    margin-right: 5px;
+    padding-top: 10px;
+    text-align: left;
+    font-size: 20pt;
+    margin-top: 10px;
+    line-height: 30px;
+}
+
+.idea-item-thumbnail:hover {
+    color: #34495e;
+    cursor: pointer;
+}
+
+
+
+.idea-item-footer {
+    margin-left: 5px;
+    margin-top: 26px;
+    text-align: left;
+}
+
+
+
+.idea-item-rating {
+    font-size: 20px;
+    top: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+
+}
+
+.idea-item-info {
+    font-size: 16px;
+    float: right;
+    margin-top: 9px;
+    margin-right: 50px;
+}
+
+.idea-item-info > div {
+    display: inline-block;
+    margin-left: 26px;
+}
+
+.idea-item-rating-label {
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    padding-left: 10px;
+}
+
+.comments-template h3 {
+    margin-top: 60px;
+}
+
+.comments-template > blockquote:nth-child(2) {
+    margin-top: 26px;
+}
+
+.comments-template blockquote {
+    padding-left: 110px;
+}
+
+.comments-template cite {
+    font-size: 14px;
+}
+
+.login-form form {
+    margin: 15px 0;
+}
+
+.add-comment .btn {
+    margin-top: 10px;
+}
+
+.idea-button {
+    background-color: #4CAF50; /* Green */
+    border: 4px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+.idea-button2 {
+    background-color: rgba(78, 163, 216, 0.59);
+    color: whitesmoke;
+    border: 2px solid rgba(78, 163, 216, 0.14);
+}
+
+.idea-button2:hover {
+    background-color: #008CBA;
+    color: white;
+}
