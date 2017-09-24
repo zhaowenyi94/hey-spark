@@ -18,7 +18,7 @@ class IdeaItem extends Component {
         return (
             <div className="idea-item">
                 <div className="idea-item-thumbnail">
-                    Title: {this.props.title}
+                    {this.props.title}
                 </div>
                 <div className="idea-item-footer">
                     <div className="idea-item-footer">

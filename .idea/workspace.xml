@@ -3,11 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="bb66d475-d6d1-40f2-9025-abbf8b0fa54d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App.js" afterPath="$PROJECT_DIR$/src/App.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/IdeaItem.js" afterPath="$PROJECT_DIR$/src/IdeaItem.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/IdeaPanel.css" afterPath="$PROJECT_DIR$/src/IdeaPanel.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/IdeaPanel.js" afterPath="$PROJECT_DIR$/src/IdeaPanel.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.css" afterPath="$PROJECT_DIR$/src/index.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -73,7 +70,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IdeaItem.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="IdeaItem.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/IdeaItem.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
@@ -86,11 +83,11 @@
       <file leaf-file-name="IdeaItem.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/IdeaItem.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="21" column="19" lean-forward="false" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+            <state relative-caret-position="183">
+              <caret line="20" column="20" lean-forward="false" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
-                <marker date="1506219295000" expanded="true" signature="161:288" ph="..." />
+                <marker date="1506237078000" expanded="true" signature="161:288" ph="..." />
               </folding>
             </state>
           </provider>
@@ -106,11 +103,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IdeaPanel.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="IdeaPanel.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/IdeaPanel.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+            <state relative-caret-position="180">
+              <caret line="12" column="53" lean-forward="false" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
               </folding>
@@ -160,17 +157,17 @@
         <option value="$PROJECT_DIR$/Json file/Comment.json" />
         <option value="$PROJECT_DIR$/src/IdeaPanel.css" />
         <option value="$PROJECT_DIR$/Json file/Idea.json" />
-        <option value="$PROJECT_DIR$/src/IdeaPanel.js" />
         <option value="$PROJECT_DIR$/src/ActionTypes.js" />
         <option value="$PROJECT_DIR$/src/News.js" />
         <option value="$PROJECT_DIR$/src/ActionCreators.js" />
-        <option value="$PROJECT_DIR$/src/IdeaItem.js" />
         <option value="$PROJECT_DIR$/src/leaveIdea.js" />
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/LeaveIdea.css" />
         <option value="$PROJECT_DIR$/src/LeaveIdea.js" />
         <option value="$PROJECT_DIR$/src/index.css" />
         <option value="$PROJECT_DIR$/src/IdeaItem.css" />
+        <option value="$PROJECT_DIR$/src/IdeaItem.js" />
+        <option value="$PROJECT_DIR$/src/IdeaPanel.js" />
       </list>
     </option>
   </component>
@@ -293,7 +290,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1506191797182</updated>
-      <workItem from="1506191798703" duration="27751000" />
+      <workItem from="1506191798703" duration="28592000" />
     </task>
     <task id="LOCAL-00001" summary="Modify stream">
       <created>1506212360952</created>
@@ -302,7 +299,14 @@
       <option name="project" value="LOCAL" />
       <updated>1506212360952</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Modify item style">
+      <created>1506235044312</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1506235044312</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -311,17 +315,18 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27751000" />
+    <option name="totallyTimeSpent" value="28592000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="22" width="1276" height="778" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24940239" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329429" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329429" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329429" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329429" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329429" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -362,7 +367,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Modify stream" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modify stream" />
+    <MESSAGE value="Modify item style" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modify item style" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -615,14 +621,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/IdeaPanel.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/index.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -631,23 +629,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/IdeaPanel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/IdeaItem.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="21" column="19" lean-forward="false" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+        <state relative-caret-position="183">
+          <caret line="20" column="20" lean-forward="false" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
-            <marker date="1506219295000" expanded="true" signature="161:288" ph="..." />
+            <marker date="1506237078000" expanded="true" signature="161:288" ph="..." />
           </folding>
         </state>
       </provider>
@@ -657,6 +645,24 @@
         <state relative-caret-position="105">
           <caret line="7" column="9" lean-forward="false" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/IdeaPanel.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/IdeaPanel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="53" lean-forward="false" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
