@@ -7,7 +7,7 @@ class IdeaPanel extends Component {
 
     render() {
         return (
-            <div className="IdeaPanel">
+            <div className="idea-panel">
                 <div className="idea-col">
                     <IdeaItem likes="100" author="1" content="Since 911 in 2001, our nation has paid huge attention to prevent further terrorist action, and that result in the inspection on personal calls, SMS and more. In my opinion, these action violate the user privacy and should be noticed to the customer and gained the permission of them.
 " title="Building a monitor web app for dog owner"/>

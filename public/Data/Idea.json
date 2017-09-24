@@ -1,8 +1,8 @@
 
 
-{
-  "Name1": {
-    "id": "1",
+[
+  {
+    id: "1",
     "author": "12",
     "create_time": "Time1",
     "update_time": "Time2",
@@ -22,7 +22,7 @@
       "Comment2"
     ]
   },
-  "Name2": {
+  {
     "id": "2",
     "author": "11",
     "create_time": "Time1",
@@ -64,4 +64,4 @@
       "Comment2"
     ]
   }
-}
+]
