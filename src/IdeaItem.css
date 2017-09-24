@@ -20,7 +20,15 @@
     text-align: left;
     font-size: 20pt;
     margin-top: 2px;
+    line-height: 30px;
 }
+
+.idea-item-thumbnail:hover {
+    color: #34495e;
+    cursor: pointer;
+}
+
+
 
 .idea-item-footer {
     margin-left: 5px;

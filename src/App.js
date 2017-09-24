@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import IdeaPanel from "./IdeaPanel";
 import LeaveIdea from "./LeaveIdea";

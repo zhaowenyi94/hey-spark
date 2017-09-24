@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
 import './IdeaItem.css'
 import FaThumbsUp from "react-icons/lib/fa/thumbs-up"
-
+import ReadMore from "./ReadMore"
 class IdeaItem extends Component {
 
     // constructor(props) {
@@ -20,6 +20,9 @@ class IdeaItem extends Component {
                 <div className="idea-item-thumbnail">
                     {this.props.title}
                 </div>
+                <ReadMore minHeight="52px" animation="1.2s ease">
+                    {this.props.content}
+                </ReadMore>
                 <div className="idea-item-footer">
                     <div className="idea-item-footer">
                         <span className="idea-item-rating-label">Likes: </span>

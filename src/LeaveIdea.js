@@ -6,7 +6,7 @@ class LeaveIdea extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            value: 'Please write an essay about your favorite DOM element.'
+            value: ''
         };
 
         this.handleChange = this.handleChange.bind(this);
@@ -19,6 +19,7 @@ class LeaveIdea extends Component {
 
     handleSubmit(event) {
         alert('An essay was submitted: ' + this.state.value);
+        console.log('An essay was submitted: ' + this.state.value);
         event.preventDefault();
     }
 
@@ -28,10 +29,10 @@ class LeaveIdea extends Component {
                 <h3>Leave your idea here and get inspired by others!</h3>
 
                 <div className="form-group">
-                    <textarea className="form-control" value="" placeholder="What is your idea buddy?" id="contact-message" rows="1"></textarea>
+                    <textarea className="form-control" value={this.state.value} placeholder="What is your idea buddy?" id="contact-message" rows="1" onChange={this.handleChange}></textarea>
                 </div>
 
-                <button id="contact-send" className="btn btn-primary btn-lg btn-block">Submit</button>
+                <input type="submit" value="Send" id="contact-send" className="btn btn-primary btn-lg btn-block"></input>
             </form>
         )
     }
