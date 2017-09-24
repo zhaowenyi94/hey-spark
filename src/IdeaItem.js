@@ -13,6 +13,7 @@ class IdeaItem extends Component {
     //
     // }
 
+
     render() {
         return (
             <div className="idea-item">
@@ -23,7 +24,7 @@ class IdeaItem extends Component {
                     <div className="idea-item-footer">
                         <span className="idea-item-rating-label">Likes: </span>
                         <span className="idea-item-rating">{this.props.likes}</span>
-                        <button className="btn-instagram"><FaThumbsUp /></button>
+                        <button className="button button2"><FaThumbsUp /></button>
                         <div className="idea-item-info">
                             <div className="idea-item-author"><b>Author:</b> <span>{this.props.author}</span></div>
                             <div className="idea-item-date"><b>Date:</b> <span>{this.props.date}</span></div>

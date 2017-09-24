@@ -4,6 +4,7 @@ import IdeaItem from "./IdeaItem";
 
 class IdeaPanel extends Component {
 
+
     render() {
         return (
             <div className="IdeaPanel">
