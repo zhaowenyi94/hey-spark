@@ -2,4 +2,11 @@
     color:#808080;
     font-weight: bold;
     text-align: center;
+    padding-left: 140pt;
+}
+.idea-col{
+    width: 40%;
+    height: auto;
+    float: left;
+    margin-left: 10px;
 }

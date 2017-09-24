@@ -1,11 +1,12 @@
 
 .idea-item {
     background-color: white;
-    margin-top: 0px;
-    margin-left: 120px;
-    margin-bottom: 0px;
-    width: 80%;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    width: 100%;
     box-shadow:0 1px 3px rgba(0, 0, 0, .1);
+    float:top;
 }
 
 .idea-item-description {
@@ -15,12 +16,14 @@
 
 .idea-item-thumbnail
 {
+    padding-left: 10px;
+    text-align: left;
+    font-size: 20pt;
     margin-top: 2px;
-    font-size: 40pt;
 }
 
 .idea-item-footer {
-    margin-left: 50px;
+    margin-left: 5px;
     margin-top: 26px;
     text-align: left;
 }
