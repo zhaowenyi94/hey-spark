@@ -1,7 +1,8 @@
-var express=require('express');
+var express=require('../../node_modules/express');
 var app=express();
-var mongoose = require('mongoose');
-var querystring = require('querystring');
+var path=require('../../node_modules/path');
+var mongoose = require('../../node_modules/mongoose');
+var querystring = require('../../node_modules/querystring');
 require('./connect.js');
 require('./model.js');
 var User = mongoose.model('User');  //User为model name
@@ -12,14 +13,14 @@ mongoose.Promise = global.Promise;  //为了避免警告的出现，因为mongoo
  * 配置登录视图
  */
 app.get('/',function (req,res) {
-    res.sendfile(__dirname + "/" + "login.html" );
+    res.sendfile(path.resolve('../') + "/test/login.html" );
 })
 
 /**
  * 配置注册视图
  */
 app.get('/register.html',function (req,res) {
-    res.sendfile(__dirname+"/"+"register.html");
+    res.sendfile(path.resolve('../') +"/test/register.html");
 })
 
 
@@ -41,10 +42,10 @@ app.post('/app', function(req,res){
                 console.log(result);
                 if (result==null)
                 {
-                    res.sendfile(__dirname + "/" + "no.html" );
+                    res.sendfile(path.resolve('../') + "/test/no.html" );
                 }else
                 {
-                    res.sendfile(__dirname + "/" + "ok.html" );
+                    res.sendfile(path.resolve('../') + "/test/ok.html" );
                     var kvp="";
                     kvp+="_id="+result._id
                        +"&username="+result.nickname
@@ -71,12 +72,12 @@ app.post('/app', function(req,res){
                     user.save(function (err,result) {
                         if (result==null) {
                         } else {
-                            res.sendfile(__dirname + "/" + "register_OK.html" );
+                            res.sendfile(path.resolve('../') + "/test/register_OK.html" );
                         }
                     })
                 }else
                 {
-                    res.sendfile(__dirname + "/" + "no.html" );
+                    res.sendfile(path.resolve('../') + "/test/no.html" );
                 }
             })
         }
