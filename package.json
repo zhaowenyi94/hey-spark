@@ -1,4 +1,4 @@
- {
+{
   "name": "idea-pocket",
   "version": "0.1.0",
   "private": true,
@@ -13,9 +13,9 @@
     "concurrently": "latest"
   },
   "scripts": {
-      "react-start": "react-scripts start",
-      "start": "concurrently 'npm run react-start' 'cd server && npm run start'",
-      "react-build": "react-scripts build",
-      "build": "concurrently 'npm react-build' 'cd server && npm build'"
+    "react-start": "react-scripts start",
+    "start": "concurrently 'npm run react-start' 'cd server && npm run start'",
+    "react-build": "react-scripts build",
+    "build": "concurrently 'npm react-build' 'cd server && npm build'"
   }
 }

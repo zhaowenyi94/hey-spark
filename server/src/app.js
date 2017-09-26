@@ -1,4 +1,4 @@
-var  express=require('express');
+var express=require('express');
 var app=express();
 var mongoose = require('mongoose');
 var querystring = require('querystring');
@@ -26,7 +26,7 @@ app.get('/register.html',function (req,res) {
 /**
  * 处理登录逻辑
  */
-app.post('/login', function(req,res){
+app.post('/app', function(req,res){
     var body = "";
     req.on('data', function(chunk){
         body += chunk;
