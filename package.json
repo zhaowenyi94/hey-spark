@@ -4,6 +4,8 @@
   "private": true,
   "dependencies": {
     "concurrently": "latest",
+    "moongoose": "latest",
+    "path": "^0.12.7",
     "express": "^4.15.5",
     "mongoose": "^4.11.13",
     "path": "^0.12.7",

@@ -1,7 +1,7 @@
-import React from 'react';
-import './form.css';
+import React from '../../../../node_modules/react';
+import '../../css/form.css';
 import { Link } from 'react-router-dom';
-import { Redirect } from 'react-router'
+import { Redirect } from '../../../../node_modules/react-router'
 
 class SignUpForm extends React.Component {
     constructor(props) {

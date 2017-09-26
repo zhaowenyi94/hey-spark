@@ -1,17 +1,7 @@
-import React, {Component} from 'react'
-import './CommentItem.css'
-import FaThumbsUp from "react-icons/lib/fa/thumbs-up"
+import React, {Component} from '../../../../node_modules/react'
+import '../../css/CommentItem.css'
 
 class IdeaItem extends Component {
-
-    // constructor(props) {
-    //     super()
-    //     this.state = {}
-    // }
-    //
-    // componentDidMount() {
-    //
-    // }
 
     render() {
         return (

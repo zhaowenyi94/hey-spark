@@ -1,7 +1,7 @@
-import React, {Component} from 'react'
-import './CommentPanel.css'
+import React, {Component} from '../../../../node_modules/react'
+import '../../css/CommentPanel.css'
 import CommentItem from "./CommentItem";
-import TitleItem from "./TitleItem";
+import TitleItem from "../Title/TitleItem";
 class CommentPanel extends Component {
 
 

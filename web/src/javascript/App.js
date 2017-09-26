@@ -1,8 +1,8 @@
-import React, { Component } from 'react';
-import './App.css';
-import IdeaPanel from "./IdeaPanel";
-import LeaveIdea from "./LeaveIdea";
-import TitleBar from "./title-bar/TitleBar";
+import React, { Component } from '../../../node_modules/react';
+import '../css/App.css';
+import IdeaPanel from "./Idea/IdeaPanel";
+import LeaveIdea from "./Idea/LeaveIdea";
+import TitleBar from "./Title/TitleBar";
 
 class App extends Component {
 

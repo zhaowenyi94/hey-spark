@@ -1,12 +1,12 @@
-import React, { Component } from 'react';
-import { render } from 'react-dom';
+import React, { Component } from '../../../node_modules/react';
+import { render } from '../../../node_modules/react-dom';
 
-import './index.css';
+import '../css/index.css';
 import App from './App';
-import TitleBar from './title-bar/TitleBar';
-import SignUp from './sign/SignUp';
-import SignIn from './sign/SignIn';
-import Comment from './comment/CommentPanel';
+import TitleBar from './Title/TitleBar';
+import SignUp from './Sign-In-Up/SignUp';
+import SignIn from './Sign-In-Up/SignIn';
+import Comment from './Comment/CommentPanel';
 
 import { HashRouter, Router, Route, hashHistory } from 'react-router-dom'
 
