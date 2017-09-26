@@ -1,6 +1,6 @@
-import React, {Component} from 'react'
-import './IdeaItem.css'
-import FaThumbsUp from "react-icons/lib/fa/thumbs-up"
+import React, {Component} from '../../../../node_modules/react'
+import '../../css/IdeaItem.css'
+import FaThumbsUp from "../../../../node_modules/react-icons/lib/fa/thumbs-up"
 import ReadMore from "./ReadMore"
 class IdeaItem extends Component {
 

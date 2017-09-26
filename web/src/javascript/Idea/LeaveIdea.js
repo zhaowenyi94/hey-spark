@@ -1,5 +1,5 @@
-import React, {Component} from 'react'
-import './LeaveIdea.css'
+import React, {Component} from '../../../../node_modules/react'
+import '../../css/LeaveIdea.css'
 
 class LeaveIdea extends Component {
 

@@ -1,10 +1,10 @@
-import React, { Component } from 'react';
-import {Link} from 'react-router-dom';
-import notice from './notice.svg';
-import activity from './activity.svg';
-import mail from './mail.svg';
-import Profile from './profile';
-import './TitleBar.css';
+import React, { Component } from '../../../../node_modules/react';
+import {Link} from '../../../../node_modules/react-router-dom';
+import notice from '../../../rc/notice.svg';
+import activity from '../../../rc/activity.svg';
+import mail from '../../../rc/mail.svg';
+import Profile from '../Profile/profile';
+import '../../css/TitleBar.css';
 
 class TitleBar extends Component {
     constructor(props) {

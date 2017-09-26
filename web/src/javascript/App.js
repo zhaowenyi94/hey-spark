@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component } from '../../node_modules/react';
 import './App.css';
 import IdeaPanel from "./IdeaPanel";
 import LeaveIdea from "./LeaveIdea";

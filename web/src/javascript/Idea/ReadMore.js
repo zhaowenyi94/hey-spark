@@ -1,5 +1,5 @@
-import React from 'react';
-import './readmore.css';
+import React from '../../../../node_modules/react';
+import '../../css/readmore.css';
 
 const ReadMore = React.createClass({
     defaultStyles:{

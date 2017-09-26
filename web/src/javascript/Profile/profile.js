@@ -1,7 +1,7 @@
-import React from 'react';
-import './profile.css';
-import './TitleBar.css';
-import user from './user.svg';
+import React from '../../../../node_modules/react';
+import '../../css/profile.css';
+import '../../css/TitleBar.css';
+import user from '../../../rc/user.svg';
 
 class Profile extends React.Component {
     constructor(props) {

@@ -1,5 +1,5 @@
-import React, {Component} from 'react'
-import './IdeaPanel.css'
+import React, {Component} from '../../../../node_modules/react'
+import '../../css/IdeaPanel.css'
 import IdeaItem from "./IdeaItem";
 
 class IdeaPanel extends Component {
