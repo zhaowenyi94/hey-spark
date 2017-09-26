@@ -3,14 +3,15 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "concurrently": "latest",
+    "moongoose": "latest",
+    "path": "^0.12.7",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
-    "react-scripts": "1.0.13",
+    "react-icons": "latest",
     "react-router": "latest",
     "react-router-dom": "latest",
-    "react-icons": "latest",
-    "moongoose": "latest",
-    "concurrently": "latest"
+    "react-scripts": "1.0.13"
   },
   "scripts": {
     "react-start": "react-scripts start",

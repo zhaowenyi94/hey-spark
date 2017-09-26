@@ -1,5 +1,5 @@
-import React, { Component } from '../../../../node_modules/react';
-import { render } from '../../../../node_modules/react-dom';
+import React, { Component } from '../../../node_modules/react';
+import { render } from '../../../node_modules/react-dom';
 
 import '../css/index.css';
 import App from './App';
