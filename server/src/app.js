@@ -1,7 +1,7 @@
-var express=require('express');
+var express=require('../../node_modules/express');
 var app=express();
-var mongoose = require('mongoose');
-var querystring = require('querystring');
+var mongoose = require('../../node_modules/mongoose');
+var querystring = require('../../node_modules/querystring');
 require('./connect.js');
 require('./model.js');
 var User = mongoose.model('User');  //User为model name

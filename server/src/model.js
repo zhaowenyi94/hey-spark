@@ -1,5 +1,6 @@
 var mongoose = require('mongoose');
-var UserSchema = new mongoose.Schema({ //定义数据模型
+var ObjectId = mongoose.Types.ObjectId();
+var UserSchema = new mongoose.Schema({
     //use the default _id as key
     username: String,
     email: String,
@@ -12,9 +13,9 @@ var UserSchema = new mongoose.Schema({ //定义数据模型
     	tel:String,
     	link:String
     },
-    idea_list:[Objectid],
-    comment_list:[Objectid],
-    like_list:[Objectid]
+    idea_list:[ObjectId],
+    comment_list:[ObjectId],
+    like_list:[ObjectId]
 });
 
 var IdeaSchema = new mongoose.Schema({
@@ -31,16 +32,16 @@ var IdeaSchema = new mongoose.Schema({
     description:String,
     tag:[String],
     likes:Number,
-    comment_list[Objectid],
+    comment_list:[ObjectId],
     statud:Number
 });
 
 var CommentSchema = new mongoose.Schema({
     //use the default _id as key
-    author:Objectid,
-    belong:Objectid,
+    author:ObjectId,
+    belong:ObjectId,
     content:String,
-    timestamp
+    timestamp:Number
 });
 
 mongoose.model('User', UserSchema);
