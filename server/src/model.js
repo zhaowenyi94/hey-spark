@@ -1,5 +1,4 @@
-var mongoose = require('mongoose');
-var ObjectId = mongoose.Types.ObjectId();
+var mongoose = require('../../node_modules/mongoose');
 var UserSchema = new mongoose.Schema({
     //use the default _id as key
     username: String,
@@ -13,9 +12,9 @@ var UserSchema = new mongoose.Schema({
     	tel:String,
     	link:String
     },
-    idea_list:[ObjectId],
-    comment_list:[ObjectId],
-    like_list:[ObjectId]
+    idea_list:[mongoose.Schema.ObjectId],
+    comment_list:[mongoose.Schema.ObjectId],
+    like_list:[mongoose.Schema.ObjectId]
 });
 
 var IdeaSchema = new mongoose.Schema({
@@ -32,14 +31,14 @@ var IdeaSchema = new mongoose.Schema({
     description:String,
     tag:[String],
     likes:Number,
-    comment_list:[ObjectId],
+    comment_list:[mongoose.Schema.ObjectId],
     statud:Number
 });
 
 var CommentSchema = new mongoose.Schema({
     //use the default _id as key
-    author:ObjectId,
-    belong:ObjectId,
+    author:mongoose.Schema.ObjectId,
+    belong:mongoose.Schema.ObjectId,
     content:String,
     timestamp:Number
 });
