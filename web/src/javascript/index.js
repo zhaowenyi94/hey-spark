@@ -8,7 +8,7 @@ import SignUp from './Sign-In-Up/SignUp';
 import SignIn from './Sign-In-Up/SignIn';
 import Comment from './Comment/CommentPanel';
 
-import { HashRouter, Router, Route, hashHistory } from 'react-router-dom'
+import { HashRouter, Router, Route, hashHistory } from '../../../node_modules/react-router-dom'
 
 
 // 配置路由 (Provider 是一个react组件，提供一个全局的store使得所有的组件都可以使用)
