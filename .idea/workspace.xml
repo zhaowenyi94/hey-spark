@@ -1,23 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ae9e8040-0230-43d9-8232-652e51fdf2ef" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/comment/CommentItem.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/comment/CommentItem.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/comment/CommentPanel.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/comment/CommentPanel.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/comment/TitleItem.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/comment/TitleItem.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/IdeaItem.css" afterPath="$PROJECT_DIR$/src/IdeaItem.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/IdeaItem.js" afterPath="$PROJECT_DIR$/src/IdeaItem.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/IdeaPanel.js" afterPath="$PROJECT_DIR$/src/IdeaPanel.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.js" afterPath="$PROJECT_DIR$/src/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sign/SignInForm.js" afterPath="$PROJECT_DIR$/src/sign/SignInForm.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sign/SignUpForm.js" afterPath="$PROJECT_DIR$/src/sign/SignUpForm.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/title-bar/TitleBar.css" afterPath="$PROJECT_DIR$/src/title-bar/TitleBar.css" />
-    </list>
+    <list default="true" id="ae9e8040-0230-43d9-8232-652e51fdf2ef" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -72,8 +56,8 @@
       <file leaf-file-name="IdeaPanel.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/IdeaPanel.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="101">
-              <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+            <state relative-caret-position="254">
+              <caret line="24" column="22" lean-forward="true" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -203,8 +187,8 @@
     <handled-path value="$PROJECT_DIR$/server/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-349" />
-    <option name="y" value="97" />
+    <option name="x" value="46" />
+    <option name="y" value="103" />
     <option name="width" value="1553" />
     <option name="height" value="947" />
   </component>
@@ -393,15 +377,15 @@
       <workItem from="1506259632020" duration="8607000" />
       <workItem from="1506271730150" duration="591000" />
       <workItem from="1506273996896" duration="946000" />
-      <workItem from="1506279802578" duration="3609000" />
+      <workItem from="1506279802578" duration="3612000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56279000" />
+    <option name="totallyTimeSpent" value="56282000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-349" y="97" width="1553" height="947" extended-state="0" />
+    <frame x="46" y="103" width="1553" height="947" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -803,8 +787,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/IdeaPanel.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        <state relative-caret-position="254">
+          <caret line="24" column="22" lean-forward="true" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
           <folding />
         </state>
       </provider>
